@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*NAVBAR INICIO*/
+
+nav {
+    background-color: #21203f;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff1ce;
+}
+
+.sub-menu-contatos {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-contatos {
+    display: block;
+    position: absolute;
+    background-color: #21203f;
+    margin-top: 15px;
+    margin-left: -38px;
+
+}
+
+nav ul li:hover .sub-menu-contatos ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu-contatos ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-contatos ul li:hover {
+    background-color: #4b3c5d;
+}
+
+/*NAVBAR FIM*/
+
+/*ORGANIZAÇÃO DOS TEXTOS*/
+
+.sobre-texto {
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sobre-textotitle {
+    color: #f00d0d;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.sobre-textoheader {
+    color: #000000;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.sobre-proposta {
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre-propostatitle{
+    color: #f00d0d;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.sobre-propostaheader {
+    color: #000000;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 20px;
+    font-size: 18px;
+    display: flex;
+    margin
+
+}
+.sobre-metodo {
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre-metodotitle {
+    color: #f00d0d;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+/*ORGANIZAÇÃO DOS TEXTOS*/
