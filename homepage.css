@@ -66,3 +66,21 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 }
 
 /*NAVBAR FIM*/
+
+h2{
+    text-align: center;
+    margin: 0 100px;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+div img{
+    margin-top: 0px;
+    right: 45%;
+    height: 500px;
+    width: 400px;
+}
