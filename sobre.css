@@ -78,21 +78,26 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-texto {
     color: #000000;
+    position: relative;
     text-align: center;
     margin-top: 60px;
 }
 
 .sobre-textotitle {
     color: #f00d0d;
-    text-align: center;
+    position: absolute;
     margin: 20px 0px;
+    bottom: 230px;
+    left: 560px;
 }
 
 .sobre-textoheader {
     color: #000000;
-    text-align: center;
+    position: absolute;
     margin: 20px 0px;
     font-size: 20px;
+    bottom: 75px;
+    left: 162px;
 }
 
 .sobre-proposta {
@@ -103,20 +108,20 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-propostatitle{
     color: #f00d0d;
-    text-align: center;
-    margin: 20px 0px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 285px;
 }
 
 .sobre-propostaheader {
     color: #000000;
-    text-align: left;
+    text-align: right;
     margin-top: 20px;
     margin-right: 60px;
-    margin-left: 20px;
-    font-size: 18px;
+    margin-left: 220px;
+    font-size: 17px;
     display: flex;
-    margin
-
+    float: left;
 }
 .sobre-metodo {
     color: #000000;
@@ -126,8 +131,19 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-metodotitle {
     color: #f00d0d;
-    text-align: center;
-    margin: 20px 0px;
+    text-align: right;
+    margin-top: -67px;
+    margin-right: 340px;
+    float: right;
+}
+
+.sobre-metodoheader {
+    color: #000000;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 730px;
+    font-size: 17px;
+    display: flex;
 }
 
 /*ORGANIZAÇÃO DOS TEXTOS*/
