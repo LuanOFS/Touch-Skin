@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+  body {
+    background-color: #00070b;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-image: url('https://images.hdqwalls.com/wallpapers/synthwave-outrun-planet-4k-61.jpg');
+ }
+
+       /*navbar*/
+nav {
+   
+        width: 100vw;
+
+}
+
+.navp {
+
+    animation: flow 30s ease-in-out infinite;
+      background: linear-gradient(-60deg, #904e95, #904e95, 
+      #e73c7e, #ee7752);
+      background-size: 300%;
+
+      -webkit-background-clip: text;
+      background-clip: padding-box;
+      -webkit-text-fill-color: white;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    
+ }
+
+ li {
+    position: relative;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    
+ }
+
+ a {
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    height: 33.33%;
+    width: 0;
+    background-color: #7007f1;
+    right: 0;
+    z-index: 0;
+    top: 33.33%;
+    transition: all 0.5s;
+ }
+ li::after {
+    content: "";
+    position: absolute;
+    height: 33.33%;
+    width: 0;
+    background-color: #7007f1;
+    left: 0;
+    z-index: 0;
+    bottom: 0;
+    transition: all 0.5s;
+ }
+ a::before {
+    position: absolute;
+    content: "";
+    height: 33.33%;
+    width: 0;
+    background-color: #7007f1;
+    bottom: 66.66%;
+    left: 0;
+    transition: all 0.5s;
+ }
+
+ li:hover:before,
+ li:hover::after,
+ li:hover a::before{
+    width: 100%;
+ }
+
+       /*button*/
+ .button{
+    height: 100px;
+    width: 320px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.1);
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+}
+button:before{
+    content: "ENTRAR";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    padding: 32px 0;
+    color: #fcfcfc;
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(25px);
+    cursor: pointer;
+}
+
+
+button:after{
+    content: "";
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: -90px;
+    top: -200px;
+    z-index: -1;
+    background-image: conic-gradient(
+        #ff2e4e,
+        #d960ff,
+        #9264ff,
+        #00b3f9,
+        #06cd69,
+        #ffcd00,
+        #ff5c22,
+        #ff2e4e
+    );
+}
+button:hover:after{
+    animation: spin 3s linear infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+    
+
+    /*FOOTER*/
+
+    footer{
+      height: 30px; /* ALTURA DO FOOTER (ARRUMAR) */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 80px;
+  }
+  
+  footer p{
+      font-family: calibri;
+      animation: flow 30s ease-in-out infinite;
+      background: linear-gradient(-60deg, #904e95, #904e95, 
+      #e73c7e, #ee7752);
+      background-size: 300%;
+
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  @keyframes flow {
+
+0% {
+    background-position: 0 50%;
+}
+
+50% {
+    background-position: 100% 50%;
+}
+
+100% {
+    background-position: 0 50%;
+}
+  }
+  
+  footer p:nth-child(1){
+      font-weight: bold;
+      color: #2b4c7e;
+      line-height: 40px;
+      font-size: 30px;
+  }
+  
+  footer p:nth-child(2){
+      font-size: 16px;
+      color: #7e7d7d;
+      width: 500px;
+      text-align: center;
+  }
+  
+  .copy{
+      color: #565555;
+      font-size: 13px;
+      position: absolute;
+      left: 50%;
+      bottom: 70px;
+      transform: translateX(-50%);
+  }
+
+  /*FOOTER FIM*/
+
