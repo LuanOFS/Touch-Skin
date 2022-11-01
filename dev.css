@@ -121,6 +121,24 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
     display: flex;
     justify-content: space-between;
   }
+  .fa-whatsapp:hover{
+    transform: scale(1.2);
+    color: #25D366;
+  }
+
+  .fa-linkedin:hover{
+    transform: scale(1.2);
+    color: #0072b1;
+  }
+
+  .fa-github:hover{
+    transform: scale(1.2);
+    color: #171515;
+  }
+  .fa-envelope:hover{
+    transform: scale(1.2);
+    color: red;
+  }
   .card a {
     text-decoration: none;
     color: inherit;
