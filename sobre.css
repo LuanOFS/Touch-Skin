@@ -8,12 +8,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
 body {
-    background-image: url(img/background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    background-color: #fff1ce;
 }
 
 a {
@@ -87,7 +87,8 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 }
 
 .sobre-textotitle {
-    color: #f00d0d;
+    color: #e05f38;
+    font-family: 'Mali', cursive;
     margin-left: center;
     margin-top: -310px;
     float: center;
@@ -95,6 +96,7 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-textoheader {
     color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
     position: center;
     font-size: 20px;
     margin-top: 45px;
@@ -106,7 +108,8 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 }
 
 .sobre-propostatitle{
-    color: #f00d0d;
+    color: #e05f38;
+    font-family: 'Mali', cursive;
     text-align: left;
     margin-top: 200px;
     margin-left: 285px;
@@ -114,6 +117,7 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-propostaheader {
     color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
     text-align: right;
     margin-top: 20px;
     margin-right: 60px;
@@ -129,7 +133,8 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 }
 
 .sobre-metodotitle {
-    color: #f00d0d;
+    color: #e05f38;
+    font-family: 'Mali', cursive;
     text-align: right;
     margin-top: -67px;
     margin-right: 340px;
@@ -138,6 +143,7 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-metodoheader {
     color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
     text-align: left;
     margin-top: 10px;
     margin-left: 730px;
