@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+body {
+    background-color: #fff1ce;
+    
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*NAVBAR INICIO*/
+
+nav {
+    width: 100vw;
+    background-color: #21203f;
+    text-align: center;
+    animation: flow 30s ease-in-out infinite;
+      background: linear-gradient(-60deg, #904e95, #904e95, 
+      #e73c7e, #ee7752);
+      background-size: 300%;
+
+      -webkit-background-clip: text;
+      background-clip: padding-box;
+      -webkit-text-fill-color: white;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+nav ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff1ce;
+    font-size: 1vw;
+    transform: translate(50%, 50%);
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.7);
+}
+
+
+
+.sub-menu-contatos {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-contatos {
+    display: block;
+    position: absolute;
+    background-color: #21203f;
+    margin-top: 15px;
+    margin-left: -38px;
+
+}
+
+nav ul li:hover .sub-menu-contatos ul {
+    display: block;
+}
+
+nav ul li:hover .sub-menu-contatos ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+nav ul li:hover .sub-menu-contatos ul li:hover {
+    background-color: #101011;
+}
+
+
+
+
+
+li:hover:before,
+li:hover::after,
+li:hover a::before{
+   width: 100%;
+}
+
+/*NAVBAR FIM*/
+
+/*ORGANIZAÇÃO DOS TEXTOS*/
+
+
+
+.imagem {
+    border-radius: 40px;
+}
+
+.sobre-texto {
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sobre-textotitle {
+    color: #e05f38;
+    font-family: 'Mali', cursive;
+    margin-left: center;
+    margin-top: -310px;
+    float: center;
+}
+
+.sobre-textoheader {
+    color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
+    position: center;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.sobre-proposta {
+    color: #000000;
+    text-align: center;
+}
+
+.sobre-propostatitle{
+    color: #e05f38;
+    font-family: 'Mali', cursive;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 285px;
+}
+
+.sobre-propostaheader {
+    color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 220px;
+    font-size: 17px;
+    display: flex;
+    float: left;
+}
+.sobre-metodo {
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sobre-metodotitle {
+    color: #e05f38;
+    font-family: 'Mali', cursive;
+    text-align: right;
+    margin-top: -67px;
+    margin-right: 340px;
+    float: right;
+}
+
+.sobre-metodoheader {
+    color: #000000;
+    font-family: 'Schoolbell', cursive, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 730px;
+    font-size: 17px;
+    display: flex;
+}
+
+/*ORGANIZAÇÃO DOS TEXTOS*/
+
+
+
+
+#bannerimage {
+    width: 100%;
+    background-image: url(https://www.pe.senac.br/wp-content/uploads/2020/03/unidades-idiomas.jpg);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+  }
+  
+ 
