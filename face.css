@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+/*NAVBAR*/
+
+nav {
+    background-color: #483D8B	;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    width: 120px;
+    margin: 10px;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+.sub-menu-contatos {
+    display: none;
+}
+
+nav ul li:hover .sub-menu-contatos {
+    display: block;
+    position: absolute;
+    background-color: #483D8B;
+    margin-top: 15px;
+    margin-left: -38px;
+    transition: 1s all;
+    
+
+}
+
+nav ul li:hover .sub-menu-contatos ul {
+    display: block;
+    transition: 1s all;
+}
+
+nav ul li:hover .sub-menu-contatos ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition:1s all;
+    
+}
+
+nav ul li:hover .sub-menu-contatos ul li:hover {
+    background-color: #663399	;
+    transition: 1s all;
+}
+
+/*NAVBAR FIM*/
+.face{
+    position: absolute;
+    width: 650px;
+    margin-left: 390px ;
+    margin-top: -25px;
+}
+
+.subtitulo{
+    color: #21203f;
+    text-decoration:underline;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.tipos{
+    color: #7a297a;
+    margin: 0 10px;
+}
+
+.rugas{
+    position: relative;
+    z-index: 1;
+    top: 120px;
+    margin: 0 40px 0 0;
+    float:right;
+    text-decoration: underline;
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.rugas:active{
+
+}
+
+.oleosidade{
+    position: relative;
+    z-index: 1;
+    top: -44px;
+    margin: 0 290px 0 0;
+    float:right;
+    text-decoration: underline;
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.oleosidade:active{
+
+}
+
+.dermatite{
+    right: 1%;
+    top: 30%;
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.dermatite:active{
+
+}
+
+.olheiras{
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.olheiras:active{
+
+}
+
+.acne{
+    float: left;
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.acne:active{
+
+}
+
+.flacidez{
+    position: relative;
+    z-index: 1;
+    top: -110px;
+    margin: 0 0px 0 0;
+    float: left;
+    margin: 0 ;
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.flacidez:active{
+
+}
+
+.melasma{
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    margin: 0 -220px 0 0;
+    float:right;
+    text-decoration: underline;
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.melasma:active{
+
+}
+
+.foliculite{
+    position: relative;
+    z-index: 1;
+    top: -140px;
+    margin: 0 0px 0 0;
+    float:right;
+    text-decoration: underline;
+    font-size: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.foliculite:active{
+    
+}
