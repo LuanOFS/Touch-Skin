@@ -2,22 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-weight: bold;
 }
 
 body {
-    background-image: url(img/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    font-family: 'Russo One', sans-serif;
 }
 
 /*NAVBAR*/
 
 nav {
-    background-color: #21203f;
+    background-color: #483D8B	;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: #fff1ce;
+    color: white;
 }
 
 .sub-menu-contatos {
@@ -44,27 +44,31 @@ nav ul li a{
 nav ul li:hover .sub-menu-contatos {
     display: block;
     position: absolute;
-    background-color: #21203f;
+    background-color: #483D8B;
     margin-top: 15px;
     margin-left: -38px;
+    transition: 1s all;
+    
 
 }
 
 nav ul li:hover .sub-menu-contatos ul {
     display: block;
+    transition: 1s all;
 }
 
 nav ul li:hover .sub-menu-contatos ul li {
     width: 150px;
     text-align: center;
     border-radius: 10px;
-    transition: 0.7s;
+    transition:1s all;
+    
 }
 
 nav ul li:hover .sub-menu-contatos ul li:hover {
-    background-color: #4b3c5d;
+    background-color: #663399	;
+    transition: 1s all;
 }
-
 /*NAVBAR FIM*/
 
 h2{
@@ -73,7 +77,6 @@ h2{
     margin-top: 10px;
     font-style: normal;
     font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     letter-spacing: 2px;
 }
