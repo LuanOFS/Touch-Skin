@@ -81,10 +81,11 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 }
 .imagem{
     position: absolute;
-    width: 650px;
-    top: 200px;
+    width: 550px;
+    height: 640px;
+    top: 250px;
     bottom: 0;
-    right: 0;
+    right: -50px;
     left: 0;
     margin: auto;
 }
@@ -240,4 +241,3 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 }
 /* Modal Fim */
-
