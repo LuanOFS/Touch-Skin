@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: #C0C0C0;
+    color: white;
 }
 
 .sub-menu-contatos {
@@ -82,7 +82,7 @@ img{
     position: absolute;
     height: 520px;
     width: 400px;
-    right: 750px;
+    right: 650px;
  
 }
 
