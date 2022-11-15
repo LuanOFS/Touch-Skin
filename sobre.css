@@ -104,7 +104,6 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .sobre-proposta {
     color: #000000;
-    text-align: center;
 }
 
 .sobre-propostatitle{
@@ -120,24 +119,21 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
     font-family: 'Schoolbell', cursive, sans-serif;
     text-align: right;
     margin-top: 20px;
-    margin-right: 60px;
     margin-left: 220px;
     font-size: 17px;
-    display: flex;
     float: left;
 }
 .sobre-metodo {
     color: #000000;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .sobre-metodotitle {
     color: #e05f38;
     font-family: 'Mali', cursive;
     text-align: right;
-    margin-top: -67px;
-    margin-right: 340px;
+    margin-top: -42px;
+    margin-right: 345px;
+    display: flex;
     float: right;
 }
 
@@ -145,10 +141,11 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
     color: #000000;
     font-family: 'Schoolbell', cursive, sans-serif;
     text-align: left;
-    margin-top: 10px;
-    margin-left: 730px;
+    margin-top: 20px;
+    margin-right: 220px;
     font-size: 17px;
     display: flex;
+    float: right;
 }
 
 /*ORGANIZAÇÃO DOS TEXTOS*/
